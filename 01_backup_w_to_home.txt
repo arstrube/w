@@ -1,74 +1,79 @@
-** THESE STRINGS ARE EXCLUDED FROM BACKUP - FOR MACBOOK AIR **
-.avi
-.flv
-*** .iso
-.mov
-.mp4
-.mpg
-.mkv
-*** .nrg
-.swf
-.vob
-.wma
-.wmv
-.zip
-.7z
-\._.Trashes
-\.Spotlight-V100
-\.Trashes
-\01_APPLICATIONS\CalibrePortable\Calibre Library\
-\01_APPLICATIONS\InfoBibliothekPortable\
-\01_APPLICATIONS\SSE2010Portable\App
-\01_APPLICATIONS\SSEVermieter2011Portable\App
-\01_APPLICATIONS\SteuerSparErkl
-\02_ARND_STRUBE\My Pictures\Dias\
-\02_ARND_STRUBE\My Pictures\sexydress\
-\02_ARND_STRUBE\08_SWE\00_svn\
-\15_APL\
-\99_INSTALL\01 VFD & S0KILL
-\99_INSTALL\Acrobat Reader
-\99_INSTALL\ActivePerl
-\99_INSTALL\ActiveTrader
-\99_INSTALL\allTunes
-\99_INSTALL\Alpari
-\99_INSTALL\BitTorrent
-\99_INSTALL\CASHFLOW
-\99_INSTALL\Correlation Code
-\99_INSTALL\CutePDF
-\99_INSTALL\Daemon
-\99_INSTALL\Easy Whiteboard
-\99_INSTALL\FIX-NTLDR
-\99_INSTALL\FLAC
-\99_INSTALL\FLV Player
-\99_INSTALL\Fonts
-\99_INSTALL\foobar2000
-\99_INSTALL\HP Format Tool
-\99_INSTALL\IE8
-\99_INSTALL\Java
-\99_INSTALL\MP3
-\99_INSTALL\MPlayer
-\99_INSTALL\MS Access
-\99_INSTALL\MS Office SP3
-\99_INSTALL\MS Spell 2K GE
-\99_INSTALL\MS SQL Server 2000
-\99_INSTALL\Nero
-\99_INSTALL\nLite
-\99_INSTALL\PDFCeator
-\99_INSTALL\PDF-XChange PDF Viewer
-\99_INSTALL\Portable_Apps
-\99_INSTALL\Real Player Alternative
-\99_INSTALL\SVGViewer
-\99_INSTALL\TeamViewer 4
-\99_INSTALL\Tiny Hexer
-\99_INSTALL\TuneUp Utilities 2009
-\99_INSTALL\UltraEdit
-\99_INSTALL\USB MULTIBOOT
-\99_INSTALL\Wacom
-\99_INSTALL\Windows\Documents and Settings
-\99_INSTALL\Windows\Samsung NC10
-\99_INSTALL\Windows\Windows Installer Cleanup Utility
-\99_INSTALL\Windows\Windows XP Service Pack 3
-\99_INSTALL\Windows Resource Kits
-\99_INSTALL\XTB Trader
-\W-TEMP\
-\Steuertipps\
+## THESE STRINGS ARE EXCLUDED FROM BACKUP - FOR MACBOOK AIR ##
+*.avi
+*.flv
+### *.iso
+*.mov
+*.mp4
+*.mpg
+*.mkv
+### *.nrg
+*.swf
+*.vob
+*.wma
+*.wmv
+*.zip
+*.7z
+._.Trashes
+.Spotlight-V100
+.Trashes
+# 01_APPLICATIONS
+CalibrePortable/Calibre Library/
+InfoBibliothekPortable/
+SSE2010Portable/App
+SSE2013Portable/App
+SSE2014Portable/App
+SSEVermieter2011Portable/App
+SteuerSparErkl
+# 02_ARND_STRUBE
+My Pictures/Dias/
+My Pictures/sexydress/
+08_SWE/00_svn/
+# 15_APL/
+# 99_INSTALL
+01 VFD & S0KILL
+Acrobat Reader
+ActivePerl
+ActiveTrader
+allTunes
+Alpari
+BitTorrent
+CASHFLOW
+Correlation Code
+CutePDF
+Daemon
+Easy Whiteboard
+FIX-NTLDR
+FLAC
+FLV Player
+Fonts
+foobar2000
+HP Format Tool
+IE8
+Java
+MP3
+MPlayer
+MS Access
+MS Office SP3
+MS Spell 2K GE
+MS SQL Server 2000
+Nero
+nLite
+PDFCeator
+PDF-XChange PDF Viewer
+Portable_Apps
+Real Player Alternative
+SVGViewer
+TeamViewer 4
+Tiny Hexer
+TuneUp Utilities 2009
+UltraEdit
+USB MULTIBOOT
+Wacom
+Windows/Documents and Settings
+Windows/Samsung NC10
+Windows/Windows Installer Cleanup Utility
+Windows/Windows XP Service Pack 3
+Windows Resource Kits
+XTB Trader
+W-TEMP/
+Steuertipps/
