@@ -6,28 +6,18 @@ function pause()
     printf "\n";
 }
 
-function do_copy()
-{
-    dst=$root/$1;
-    src=$cdrv/$1;
-    printf "Backing up $src to $dst...\n";
-    rsync -av --exclude-from=$exclude $src $dst
-}
+# Change to the folder that this script resides in
+cd "`dirname "$0"`"
 
 # Copy files to backup drive, overwrite only if newer.
 printf '\n';
 printf 'B A C K I N G   U P   W - D R I V E \n'
 printf '=================================== \n'
-printf 'Working... \n'
-cdrv=`pwd`
-root=~/d/dat/w-drive
+printf 'Working... \n\n'
+src=`pwd`
+dst=~/d/dat/w-drive
 exclude=`basename $0 .sh`.txt  # or like ${0%.txt}
-for dir in `ls -d */`;
-do
-    do_copy $dir;
-done
-# printf "Backing up $src to $dst ...\n\n";
-# do_copy
+rsync -av --exclude-from=$exclude $src/ $dst;
 
 pause;
 
