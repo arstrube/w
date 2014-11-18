@@ -14,7 +14,6 @@ src=`pwd`/;
 dst=~/d/dat/w-drive-diff;
 exclude=~/d/usr/tmp/`basename $0 _diff.sh`.txt;
 bak=~/d/dat/w-drive;
-find $bak/ -type f | sed "s:$bak::" > $exclude; # or: tree -if --noreport $bak/
+find $bak -type f | sed "s:$bak/::" > $exclude; # or: tree -if --noreport $bak/
 rsync -av --exclude='.*' --exclude-from=$exclude $src $dst;
-
 pause;
