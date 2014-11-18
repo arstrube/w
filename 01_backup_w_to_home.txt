@@ -25,6 +25,6 @@
 02_ARND_STRUBE/Pictures/Dias/
 02_ARND_STRUBE/Pictures/sexydress/
 02_ARND_STRUBE/08_SWE/00_svn/
-99_INSTALL/
+99_INSTALL/*/
 __W-TEMP/
 Steuertipps/
