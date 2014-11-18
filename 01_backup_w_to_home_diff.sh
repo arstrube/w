@@ -25,7 +25,7 @@ find $bak/ -type f | sed "s:$bak::" > $exclude; # or: tree -if --noreport $bak/
 # Run the differential backup
 src=`pwd`/;
 dst=~/d/dat/w-drive-diff;
-rsync -av --exclude-from=$exclude $src $dst;
+rsync -av --exclude='.*' --exclude-from=$exclude $src $dst;
 
 pause;
 
