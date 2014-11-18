@@ -20,14 +20,13 @@ cd "`dirname "$0"`";
 basename=`basename $0 .sh`;
 exclude=~/d/usr/tmp/$basename.txt;
 bak=~/d/dat/w-drive;
-find $bak/ | sed "s:$bak::" > $exclude; # or: tree -if --noreport $bak/
+find $bak/ -type f | sed "s:$bak::" > $exclude; # or: tree -if --noreport $bak/
 
 # Run the differential backup
 src=`pwd`/;
 dst=~/d/dat/w-drive-diff;
-cmd="rsync -av --exclude-from=$exclude $src $dst";
-# echo "$cmd";
-$cmd;
+rsync -av --exclude-from=$exclude $src $dst;
+
 pause;
 
 

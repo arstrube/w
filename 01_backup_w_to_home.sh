@@ -17,9 +17,7 @@ printf 'Working... \n\n';
 src=`pwd`/;
 dst=~/d/dat/w-drive;
 exclude=`basename $0 .sh`.txt; #or: exclude=${0%.txt}
-cmd="rsync -av --exclude-from=$exclude $src $dst";
-# echo $cmd;
-$cmd;
+rsync -av --exclude-from=$exclude $src $dst;
 
 pause;
 
