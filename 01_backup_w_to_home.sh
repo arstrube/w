@@ -1,10 +1,6 @@
 #!/bin/bash
 
-function pause()
-{
-    read -n1 -r -p "Press any key to continue..." key;
-    printf "\n";
-}
+function pause() { read -n1 -rsp$'Press any key to continue...\n'; }
 
 # Change to the folder that this script resides in
 cd "`dirname "$0"`";
@@ -18,6 +14,4 @@ src=`pwd`/;
 dst=~/d/dat/w-drive;
 exclude=`basename $0 .sh`.txt; #or: exclude=${0%.txt}
 rsync -av --exclude-from=$exclude $src $dst;
-
 pause;
-
