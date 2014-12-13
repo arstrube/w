@@ -11,9 +11,9 @@ printf 'B A C K I N G   U P   D I F F   O F   W - D R I V E \n';
 printf '=================================================== \n';
 printf 'Working... \n\n';
 src=`pwd`/;
-dst=~/d/dat/w-drive-diff;
+dst=~/d/w-drive-diff;
 exclude=~/d/usr/tmp/`basename $0 _diff.sh`.txt;
-bak=~/d/dat/w-drive;
+bak=~/d/w-drive;
 find $bak -type f | sed "s:$bak/::" > $exclude; # or: tree -if --noreport $bak/
 rsync -av --exclude='.*' --exclude=__W-TEMP --exclude-from=$exclude $src $dst;
 pause;

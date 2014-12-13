@@ -11,7 +11,7 @@ printf 'B A C K I N G   U P   W - D R I V E \n';
 printf '=================================== \n';
 printf 'Working... \n\n';
 src=`pwd`/;
-dst=~/d/dat/w-drive;
+dst=~/d/w-drive;
 exclude=`basename $0 .sh`.txt; #or: exclude=${0%.txt}
 rsync -av --exclude-from=$exclude $src $dst;
 pause;
