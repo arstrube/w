@@ -1,5 +1,5 @@
 *
 !.gitignore
-!*.sh
-!*.bat
-!*.txt
+!_*.sh
+!_*.bat
+!_*.txt

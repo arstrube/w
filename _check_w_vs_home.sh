@@ -12,6 +12,6 @@ printf '===================================== \n';
 printf 'Working... \n\n';
 src=~/d/w-drive/;
 dst=`pwd`;
-exclude='_backup_w_to_home.txt';
-rsync -av --dry-run --exclude-from=$exclude $src $dst;
+ex_from='_backup_w_to_home.txt';
+rsync -av --dry-run --exclude '.DS_Store' --exclude '._*' --exclude '*/' --exclude-from=$ex_from $src $dst;
 pause;
